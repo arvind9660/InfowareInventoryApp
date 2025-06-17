@@ -60,7 +60,7 @@ InfowareInventoryApp
 ## Demo and GitHub Link
 
 Demo video: Add your Google Drive or YouTube video link here  
-GitHub link: Add your GitHub repository link here
+GitHub link: https://github.com/arvind9660/InfowareInventoryApp
 
 ## Submitted By
 

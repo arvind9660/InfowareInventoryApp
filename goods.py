@@ -80,8 +80,8 @@ class GoodsReceivingForm(QWidget):
 
         try:
             cursor.execute("""
-                INSERT INTO goods_receiving 
-                (product_name, supplier_name, quantity, unit, rate, tax, total_rate)
+                INSERT INTO goods_receiving
+                (product_id, supplier, quantity, unit, rate_per_unit, tax, total_rate)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             """, (
                 self.product_input.text(),

@@ -81,7 +81,7 @@ class SalesForm(QWidget):
         try:
             cursor.execute("""
                 INSERT INTO sales 
-                (product_name, customer_name, quantity, unit, rate, tax, total_rate)
+                (product_id, customer, quantity, unit, rate_per_unit, tax, total_rate)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             """, (
                 self.product_input.text(),
